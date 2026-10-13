@@ -9,6 +9,9 @@ Noether's theorem ties every conservation law to a symmetry. The method here is 
 - `proofs/` — OpenTimestamps proofs. They anchor the registry and each forecast file to Bitcoin. Verify with `ots verify`.
 - Commit-reveal: forecast files are published on or after their resolution date. Before that, the registry fixes their content by hash. Anyone can check a revealed file against the registry with `python3 verify.py <folder>`.
 
+## Entry format v2 (seq 15 onward)
+Each entry registers two hashes: a **claim** file (target, interval or probability, kill condition), revealed at resolution, and an optional **method** file (inputs, sources, meter IDs), revealed only if a result is disputed. Both files carry a random 128-bit salt and a UTC creation time. `python3 register.py <resolves_on> "<truth source>" <name> claim.json [method.json]`.
+
 ## Scoring
 Every interval is scored as hit or miss at resolution. Probabilities are scored by log score. Misses stay in the ledger. Amendments are new entries; nothing is edited or deleted.
 
