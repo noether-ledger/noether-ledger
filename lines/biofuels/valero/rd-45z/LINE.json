@@ -1,0 +1,16 @@
+{
+ "cadence": "quarterly",
+ "defined_utc": "2026-10-13",
+ "domain": "biofuels",
+ "entity": "valero",
+ "id": "biofuels/valero/rd-45z",
+ "inputs": [
+  "L010",
+  "L012",
+  "L015"
+ ],
+ "metric": "rd-45z",
+ "target": "Valero renewable diesel segment 45Z amount",
+ "truth_source": "Valero earnings release / 10-Q",
+ "unit": "USD M"
+}

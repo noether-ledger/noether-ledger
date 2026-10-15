@@ -1,0 +1,19 @@
+{
+ "cadence": "event (3- and 6-month horizons)",
+ "defined_utc": "2026-10-15",
+ "domain": "softs",
+ "entity": "cocoa-ice-ny",
+ "id": "softs/cocoa-ice-ny/front-month-price",
+ "inputs": [
+  "ICCO-QBCS",
+  "FAO-OWID-prod",
+  "NOAA-ONI",
+  "NASA-POWER-ECU7",
+  "ENFEN",
+  "NYU-VLAB-GARCH"
+ ],
+ "metric": "front-month-price",
+ "target": "ICE US cocoa front-month settlement (CC1) on resolution date; scored by CRPS and p10-p90 coverage vs market-only lognormal baseline",
+ "truth_source": "ICE US cocoa front-month settlement",
+ "unit": "USD/t"
+}

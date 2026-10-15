@@ -1,0 +1,21 @@
+{
+ "assign": {
+  "0": "biofuels/gevo/45z-credit",
+  "1": "biofuels/gpre/45z-credit",
+  "10": "biofuels/rex/45z-credit",
+  "11": "biofuels/dgd/45z-credit",
+  "12": "biofuels/valero/rd-45z",
+  "13": "trade/census/uco-imports-ex-na",
+  "14": "biofuels/gpre/45z-credit",
+  "15": "homebuilders/panel/delivered-price",
+  "2": "biofuels/gpre/45z-credit",
+  "3": "biofuels/gpre/crush-margin",
+  "4": "biofuels/gpre/crush-margin",
+  "5": "biofuels/gpre/eps",
+  "6": "biofuels/gpre/45z-credit",
+  "7": "biofuels/gpre/45z-credit",
+  "8": "biofuels/gevo/rng-volume",
+  "9": "biofuels/gevo/45z-credit"
+ },
+ "note": "Line assignment for entries registered before lines existed. Assigned 2026-10-13; the forecasts themselves are unchanged."
+}

@@ -1,0 +1,16 @@
+{
+ "cadence": "quarterly",
+ "defined_utc": "2026-10-13",
+ "domain": "biofuels",
+ "entity": "gpre",
+ "id": "biofuels/gpre/eps",
+ "inputs": [
+  "L004",
+  "L008",
+  "L011"
+ ],
+ "metric": "eps",
+ "target": "Green Plains adjusted diluted EPS",
+ "truth_source": "GPRE earnings release",
+ "unit": "USD/share"
+}

@@ -1,0 +1,16 @@
+{
+ "cadence": "quarterly (fiscal)",
+ "defined_utc": "2026-10-13",
+ "domain": "biofuels",
+ "entity": "rex",
+ "id": "biofuels/rex/45z-credit",
+ "inputs": [
+  "L011",
+  "L014",
+  "L020"
+ ],
+ "metric": "45z-credit",
+ "target": "REX American Resources 45Z credit income per ethanol gallon sold",
+ "truth_source": "REX 10-Q",
+ "unit": "USD/gal"
+}

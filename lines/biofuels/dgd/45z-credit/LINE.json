@@ -1,0 +1,16 @@
+{
+ "cadence": "quarterly",
+ "defined_utc": "2026-10-13",
+ "domain": "biofuels",
+ "entity": "dgd",
+ "id": "biofuels/dgd/45z-credit",
+ "inputs": [
+  "L010",
+  "L012",
+  "L015"
+ ],
+ "metric": "45z-credit",
+ "target": "Diamond Green Diesel 45Z benefit per gallon sold",
+ "truth_source": "Darling Ingredients / Valero disclosures",
+ "unit": "USD/gal"
+}

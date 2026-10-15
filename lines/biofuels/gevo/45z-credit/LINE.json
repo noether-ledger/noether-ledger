@@ -1,0 +1,18 @@
+{
+ "cadence": "quarterly",
+ "defined_utc": "2026-10-13",
+ "domain": "biofuels",
+ "entity": "gevo",
+ "id": "biofuels/gevo/45z-credit",
+ "inputs": [
+  "L001",
+  "L002",
+  "L012",
+  "L014",
+  "L020"
+ ],
+ "metric": "45z-credit",
+ "target": "Gevo North Dakota 45Z credit: value recognized and USD/gal at fair value",
+ "truth_source": "Gevo 10-Q",
+ "unit": "USD M; USD/gal"
+}

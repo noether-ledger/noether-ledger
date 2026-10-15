@@ -1,0 +1,15 @@
+{
+ "cadence": "quarterly",
+ "defined_utc": "2026-10-13",
+ "domain": "biofuels",
+ "entity": "gevo",
+ "id": "biofuels/gevo/rng-volume",
+ "inputs": [
+  "L001",
+  "L002"
+ ],
+ "metric": "rng-volume",
+ "target": "Gevo Northwest Iowa dairy RNG production",
+ "truth_source": "Gevo 10-Q / earnings release",
+ "unit": "MMBtu"
+}

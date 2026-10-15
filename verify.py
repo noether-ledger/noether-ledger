@@ -12,7 +12,7 @@ for line in open("registry.jsonl"):
     status = ["chain ok"]
     if d:
         p = os.path.join(d, e["file"])
-        if os.path.exists(p):
+        if e.get("type") != "line_map" and os.path.exists(p):
             b = open(p, "rb").read()
             assert sha(b) == e["file_sha256"], f"claim/file mismatch seq {e['seq']}"
             assert sha(json.dumps(json.loads(b), sort_keys=True).encode()) == e["canonical_sha256"]
@@ -23,3 +23,5 @@ for line in open("registry.jsonl"):
     print(e["seq"], e["file"], e["registered_utc"], ", ".join(status))
     prev = h
 print("head", prev)
+if os.path.isdir("lines"):
+    import lines; lines.verify()

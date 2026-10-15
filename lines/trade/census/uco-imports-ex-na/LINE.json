@@ -1,0 +1,14 @@
+{
+ "cadence": "monthly",
+ "defined_utc": "2026-10-13",
+ "domain": "trade",
+ "entity": "census",
+ "id": "trade/census/uco-imports-ex-na",
+ "inputs": [
+  "L010"
+ ],
+ "metric": "uco-imports-ex-na",
+ "target": "US imports of used cooking oil (HS 1518004000) from outside Canada and Mexico",
+ "truth_source": "US Census international trade release",
+ "unit": "million lb"
+}

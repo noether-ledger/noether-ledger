@@ -1,0 +1,16 @@
+{
+ "cadence": "quarterly",
+ "defined_utc": "2026-10-13",
+ "domain": "homebuilders",
+ "entity": "panel",
+ "id": "homebuilders/panel/delivered-price",
+ "inputs": [
+  "L007",
+  "L016",
+  "L019"
+ ],
+ "metric": "delivered-price",
+ "target": "Public homebuilder home-sale revenue vs locked price x reported closings (pooled panel)",
+ "truth_source": "builder earnings releases",
+ "unit": "USD M; ratio"
+}

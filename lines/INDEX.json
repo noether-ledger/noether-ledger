@@ -1,0 +1,83 @@
+{
+ "legacy_map_sha256": "0e39b589ad479977bd3447d99ea77e7c57904c3cb64df38c58602211510efb70",
+ "lines": {
+  "biofuels/dgd/45z-credit": {
+   "entries": 1,
+   "forecasts": 1,
+   "head": "09ab322f9e6d04621512407bd91c48a464fe4622fe5cc49c792197cf2c14e79c",
+   "open": 1,
+   "resolved": 0
+  },
+  "biofuels/gevo/45z-credit": {
+   "entries": 2,
+   "forecasts": 2,
+   "head": "9cc346260d958262f3b84d18f4571ed7a6114fc9142be5cb95bab6a93ea5cd61",
+   "open": 2,
+   "resolved": 0
+  },
+  "biofuels/gevo/rng-volume": {
+   "entries": 1,
+   "forecasts": 1,
+   "head": "daff8cc1d56e621e5629b1b362d1639f4356813e6f88cb2821709a03fe023e8a",
+   "open": 1,
+   "resolved": 0
+  },
+  "biofuels/gpre/45z-credit": {
+   "entries": 5,
+   "forecasts": 4,
+   "head": "d668cf1f655c2f22f641c4369cab595041dcc7c554b88a552f317529b641766a",
+   "open": 4,
+   "resolved": 0
+  },
+  "biofuels/gpre/crush-margin": {
+   "entries": 2,
+   "forecasts": 2,
+   "head": "383900f5cce52d1139b85b961b410b1182dd4ad9228afaa9a72aa98db79ede0d",
+   "open": 2,
+   "resolved": 0
+  },
+  "biofuels/gpre/eps": {
+   "entries": 1,
+   "forecasts": 1,
+   "head": "b073244c516d701ca007e36f360640d3f4d378c252bab1f28caf1c70a4214d4d",
+   "open": 1,
+   "resolved": 0
+  },
+  "biofuels/rex/45z-credit": {
+   "entries": 1,
+   "forecasts": 1,
+   "head": "455ee8d9b7d4e42d64c558501e82541ab708f7ccb66a88fc5ccba3357112b640",
+   "open": 1,
+   "resolved": 0
+  },
+  "biofuels/valero/rd-45z": {
+   "entries": 1,
+   "forecasts": 1,
+   "head": "033ee379d9de40359e679d05f14b2c67d9f4a1ddfa8d07ee35205afbb786b446",
+   "open": 1,
+   "resolved": 0
+  },
+  "homebuilders/panel/delivered-price": {
+   "entries": 1,
+   "forecasts": 1,
+   "head": "85bd86aece04c955b198e07219799261fd429d1a262ae62c388c9395c823eaed",
+   "open": 1,
+   "resolved": 0
+  },
+  "softs/cocoa-ice-ny/front-month-price": {
+   "entries": 2,
+   "forecasts": 2,
+   "head": "3ef1b294fd51f37cfa5e2fa7476093f07675ea10647215c0b02a6c856cc8541b",
+   "open": 2,
+   "resolved": 0
+  },
+  "trade/census/uco-imports-ex-na": {
+   "entries": 1,
+   "forecasts": 1,
+   "head": "be8699ae3fde3047f33192ade5e6e3d8df917cb31615bf7fd9e778c40e7462b1",
+   "open": 1,
+   "resolved": 0
+  }
+ },
+ "lines_root": "0466b391a7dbf18925151252006caa68936684ab1c2e378dfd7e357d1a0b3acd"
+}
